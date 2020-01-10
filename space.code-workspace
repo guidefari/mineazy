@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\Tendai\\Documents\\Work\\Mineazy Project"
+		},
+		{
+			"name": "mineazy",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mineazy"
+	}
+}
