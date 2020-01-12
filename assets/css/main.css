@@ -3648,7 +3648,7 @@ body:before {
   color: #ce1b28;
 }
 #heading:before {
-  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  /* background: linear-gradient(135deg, #ce1b28 0%, #111111 74%); */
   content: " ";
   display: block;
   height: 100%;
