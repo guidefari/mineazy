@@ -371,7 +371,7 @@ pre code {
 }
 
 hr {
-  border: 0;
+  
   border-bottom: solid 1px;
   margin: 2rem 0;
 }
@@ -3836,7 +3836,7 @@ body:before {
   right: 0;
   text-align: right;
   top: 0;
-  vertical-align: middle;
+  
   width: 7rem;
 }
 #menu .close:before {
@@ -3873,4 +3873,8 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible;
+}
+
+.equipment_container > h4 {
+  margin-bottom: 0.8rem !important; 
 }
