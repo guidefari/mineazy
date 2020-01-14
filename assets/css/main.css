@@ -3466,13 +3466,19 @@ body:before {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 15rem !important;
+  height: 15rem /*!important*/;
   min-height: 15rem;
   overflow: hidden;
   position: relative;
   text-align: center;
   width: 100%;
 }
+@media screen and (min-width: 1024px){
+  #heading{
+    height: 45vh;
+  }
+}
+
 #heading input,
 #heading select,
 #heading textarea {
@@ -3878,3 +3884,10 @@ body.is-menu-visible #menu {
 .equipment_container > h4 {
   margin-bottom: 0.8rem !important; 
 }
+
+#branches > section > h4 > p {
+  
+  margin-right: 2rem;
+  display: inline;
+}
+
