@@ -1,10 +1,14 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
-/*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
+@font-face {
+  font-family: carter;
+  src: url(../fonts/static/Dosis-Regular.ttf);
+}
+@font-face {
+  font-family: carterone;
+  src: url(../fonts/Exo/Exo-Regular.ttf);
+}
 /* Basic */
 @-ms-viewport {
   width: device-width;
@@ -30,7 +34,7 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #000000;
 }
 body.is-preload *,
 body.is-preload *:before,
@@ -2422,6 +2426,7 @@ ul.actions.fit.stacked {
   text-decoration: none;
   border-bottom: none;
   position: relative;
+  
 }
 .icon:before {
   -moz-osx-font-smoothing: grayscale;
@@ -2544,7 +2549,7 @@ ul.icons li .icon:before {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/yellow-and-brown-metal-pay-loader-on-he-dirt-1009926.jpg");
+  background-image: url("../../images/new/safety-boots.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2577,6 +2582,21 @@ ul.icons li .icon:before {
 #banner h6 {
   color: #ffffff;
 }
+
+#banner h1{
+  font-weight: ;
+  color: #F0EB46 ;
+  font-weight: bold;
+  font-family: carter;
+}
+
+#banner p{
+ color: #F0EB46;
+ opacity: 1;
+ font-family: carterone ;
+ font-weight: ;
+}
+
 #banner blockquote {
   border-left-color: rgba(255, 255, 255, 0.25);
 }
@@ -2789,7 +2809,7 @@ ul.icons li .icon:before {
   display: block;
   height: 100%;
   left: 0;
-  opacity: 0.45;
+  opacity: 0.6;
   position: absolute;
   top: 0;
   width: 100%;
@@ -2864,14 +2884,14 @@ body.is-preload #banner:before {
 
 /* CTA */
 #cta {
-  color: rgba(255, 255, 255, 0.75);
+  color: #F0EB46;
   background-attachment: fixed;
 
-  background-image: url(../../images/tunnel-957963.jpg);
+  background-image: url(../../images/new/pattern1.png);
 
   background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: initial;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -2889,7 +2909,7 @@ body.is-preload #banner:before {
   background-image: -moz-linear-gradient(33deg, #52acff 21%, #ffe32c 89%);
   background-image: -o-linear-gradient(33deg, #52acff 21%, #ffe32c 89%);
   background-image: linear-gradient(33deg, #52acff 21%, #ffe32c 89%);
-  opacity: 0.6;
+  opacity: 0.0;
 }
 #cta input,
 #cta select,
@@ -3078,7 +3098,7 @@ body.is-preload #banner:before {
 #footer {
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
-  padding: 8rem 0 6rem 0;
+  padding: 2rem 0 2rem 0;
 }
 #footer input,
 #footer select,
@@ -3327,7 +3347,7 @@ body {
 }
 body:before {
   content: " ";
-  background-image: url(../../images/tunnel-957963.jpg);
+  background-color: #F0EB46;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3338,7 +3358,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.05;
+  
 }
 
 #header {
@@ -3354,7 +3374,7 @@ body:before {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #111111;
+  background: #354CA0;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
