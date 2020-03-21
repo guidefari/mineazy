@@ -9,6 +9,14 @@
   font-family: carterone;
   src: url(../fonts/Exo/Exo-Regular.ttf);
 }
+@font-face {
+  font-family: cartertwo;
+  src: url(../fonts/Gugi/Gugi-Regular.ttf);
+}
+
+.specific, #specific_text {
+  color: #444444;
+}
 /* Basic */
 @-ms-viewport {
   width: device-width;
@@ -230,8 +238,8 @@ body,
 input,
 select,
 textarea {
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-family: cartertwo, "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: ;
   font-size: 1rem;
   line-height: 1.65;
 }
@@ -1106,9 +1114,18 @@ table.alt tbody tr td {
 }
 
 .highlights .content {
-  background: #ffffff;
+  background: #616161;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
 }
+
+.content > p {
+  color: #F0EB46;
+}
+
+.content > header > h3 {
+  color: #ffffff;
+}
+
 
 /* Testimonials */
 .testimonials {
@@ -3480,7 +3497,7 @@ body:before {
       rgba(17, 17, 17, 0.25),
       rgba(17, 17, 17, 0.25)
     ),
-    url("../../images/equipment\ 1.jpg");
+    url("../../images/new/369.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
