@@ -2536,8 +2536,8 @@ ul.icons li .icon:before {
   padding: 8rem 0 6rem 0;
   position: relative;
   z-index: 1;
-  background-image: url(/images/Logos_backgrounds/Untitled-2-01.svg);
-  background-size: cover;
+ 
+  
 }
 @media screen and (max-width: 1280px) {
   .wrapper {
@@ -3367,14 +3367,18 @@ body.is-preload #banner:before {
 
 /* Header */
 body {
-  padding-top: 3.25rem;
+  padding-top: ;
 }
+
+/*all that's left to do on the body background is to export logos for different media queries */
 body:before {
-  content: " ";
+  background: url(/images/Logos_backgrounds/Untitled-2-01-01.svg)no-repeat center center fixed;
   background-color: #ffe600;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: ;
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
+ 
+  content: " ";
   display: block;
   position: fixed;
   left: 0;
