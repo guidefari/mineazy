@@ -2536,7 +2536,7 @@ ul.icons li .icon:before {
   padding: 8rem 0 6rem 0;
   position: relative;
   z-index: 1;
-  background-image: url(/images/Web-1920.svg);
+  background-image: url(/images/Logos_backgrounds/Untitled-2-01.svg);
   background-size: cover;
 }
 @media screen and (max-width: 1280px) {
@@ -3371,7 +3371,7 @@ body {
 }
 body:before {
   content: " ";
-  background-color: #F0EB46;
+  background-color: #ffe600;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
