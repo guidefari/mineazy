@@ -79,6 +79,11 @@ min-width: 40vw;
   margin-right: 2rem;
   display: inline;
 }
+
+.highlights {
+  color: yellow;
+
+}
 /* Basic */
 @-ms-viewport {
   width: device-width;
