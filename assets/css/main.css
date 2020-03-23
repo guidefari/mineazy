@@ -14,6 +14,11 @@
   src: url(../fonts/Gugi/Gugi-Regular.ttf);
 }
 
+/* additional css */
+.wrapper{
+  background-color: ;
+}
+
 .specific, #specific_text {
   color: #444444;
 }
@@ -2531,6 +2536,8 @@ ul.icons li .icon:before {
   padding: 8rem 0 6rem 0;
   position: relative;
   z-index: 1;
+  background-image: url(/images/Web-1920.svg);
+  background-size: cover;
 }
 @media screen and (max-width: 1280px) {
   .wrapper {
