@@ -19,6 +19,20 @@
   background-color: ;
 }
 
+#front p {
+  position: relative;
+  top: 15rem;
+}
+
+#front{
+width: 100vw;
+}
+
+#front img{
+  width: 100%;
+}
+
+
 #about{
   background-color : rgb(226, 226, 226);
   
@@ -501,6 +515,7 @@ hr {
   margin: 0 auto;
   width: 75rem;
   max-width: calc(100% - 6rem);
+  display: block;
 }
 @media screen and (max-width: 480px) {
   .inner {
@@ -2620,6 +2635,8 @@ ul.icons li .icon:before {
 }
 
 /* Banner */
+
+
 #banner {
   -ms-flex-align: center;
   -ms-flex-pack: center;
@@ -2633,6 +2650,8 @@ ul.icons li .icon:before {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   -moz-justify-content: center;
   -webkit-justify-content: center;
   -ms-justify-content: center;
@@ -2643,8 +2662,8 @@ ul.icons li .icon:before {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
-  min-height: 35rem;
+  height: auto !important;
+  min-height: 100vh;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -2946,6 +2965,7 @@ ul.icons li .icon:before {
   }
   #banner p {
     font-size: 1.25rem;
+    
   }
   #banner br {
     display: none;
