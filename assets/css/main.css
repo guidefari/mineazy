@@ -249,6 +249,15 @@ background-position: center;
   display: inline;
 }
 
+#branches > section {
+  border: rgb(196, 196, 196);
+  border-width: 1rem;
+  border-style: solid;
+  padding: 3rem;
+  min-width: 80%;
+  border-radius: 10px;
+}
+
 .highlights {
   color: yellow;
 
