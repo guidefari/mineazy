@@ -31,6 +31,12 @@
   position:absolute;
 }
 
+@media screen and (max-width: 425px){
+  .branches_width > section{
+    width: 100%;
+  }
+}
+
 .button-wrapper{
   position: ;
   width: auto;
