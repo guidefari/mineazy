@@ -160,6 +160,15 @@ background-position: center;
   margin:1rem;
 }
 
+@media screen and (max-width: 425px){
+  .hero_text{
+  width: 85%;
+  margin: auto;
+  padding: 1rem;
+  
+  }
+  }
+
 
 
 .wrapper{
@@ -197,11 +206,23 @@ width: 100vw;
 .services_wrapper{
   
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   
 }
+
+@media screen and (max-width: 425px){
+  .services_wrapper > div{
+  width: 100%;
+  }
+  }
+
+  @media screen and (min-width: 768px){
+    .services_wrapper > div{
+    width: 40%;
+    }
+    }
 
 .equipment_container > h4 {
   margin-bottom: 0.8rem !important; 
