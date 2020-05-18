@@ -16,6 +16,9 @@
 
 /* additional css */
 /*COVID POP UP MESSAGE*/
+.map{
+  overflow: hidden;
+}
 
 .button-wrapper{
   position: ;
